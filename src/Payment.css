@@ -1,0 +1,82 @@
+/* Payment.css - Amazon Clone Style */
+
+.payment {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: 'Amazon Ember', Arial, sans-serif;
+}
+
+.payment__container {
+    max-width: 900px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    background: #fafafa;
+    padding: 30px;
+}
+
+.payment__section {
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0;
+    align-items: flex-start;
+}
+
+.payment__title {
+    flex: 0.2;
+    font-weight: 700;
+    color: #111;
+    font-size: 1.1rem;
+}
+
+.payment__address,
+.payment__items,
+.payment__details {
+    flex: 0.8;
+}
+
+.payment__address p {
+    margin: 2px 0;
+    color: #555;
+}
+
+.payment__items {
+    padding: 10px 0;
+}
+
+.payment__details {
+    display: flex;
+    flex-direction: column;
+}
+.payment__details form div button {
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    width: 100%;
+    padding: 8px ;
+    border-radius: 10px; 
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+@media (max-width: 600px) {
+  .payment__priceContainer h3 {
+    font-size: 1rem;
+  }
+
+  .payment__details form div button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .payment__title {
+    font-size: 1rem;
+  }
+}
+
